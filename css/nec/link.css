@@ -1,0 +1,20 @@
+input[type="button"], input[type="submit"], input[type="reset"] {-webkit-appearance: none;}
+textarea{-webkit-appearance: none;}
+.button{border-radius:0;}
+
+.m-link ul{margin:20px 0;max-height:140px;overflow:hidden;}
+.m-link li{display:inline-block;width:24.5%;line-height:40px;height:40px;overflow:hidden;}
+.m-link .img-wrap{display:inline-block;width:20px;height:20px;margin:10px 0;border-radius:4px;overflow:hidden;}
+.m-link .title{display:inline-block;overflow:hidden;line-height:40px;margin-left:4px;padding:0;vertical-align:top;}
+.m-link a{margin:0;padding:0;}
+.m-link span{margin:0;padding:0;}
+.m-link img{width:20px;vertical-align:top;}
+.m-link .key span{float:right;}
+
+.search{margin:15px auto 30px;width:80%;height:32px;}
+.search input[type='text']{font-size:16px;width:75%;height:30px;border:1px solid #888;vertical-align:top;}
+.search input[type='submit']{font-size:12px;width:20%;border:none;height:32px;background:#444;color:#fff;vertical-align:top;}
+
+@media(max-width:700px){
+    .m-link li{width:48%;}
+}
